@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>CSoft.$(AssemblyName)</PackageId>
+    <Version>1.0.0</Version>
+    <Company>CSoft</Company>
+    <Authors>CSoft</Authors>
+    <Description>单位转换拓展</Description>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/caoyiliang/UnitExtend</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/caoyiliang/UnitExtend</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\caoyi\.nuget\packages\flee\2.0.0\contentFiles\any\net6.0\Resources\DocComments.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flee" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
