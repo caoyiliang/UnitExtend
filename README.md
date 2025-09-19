@@ -4,5 +4,5 @@
 using UnitExtend;
 
 decimal cm = 1.0m;
-var m = cm.ConvertUnit(null, "$self/100");
+var m = cm.ConvertUnit("$self/100");
 ```

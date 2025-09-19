@@ -23,7 +23,7 @@ public static class UnitExtend
         return true;
     }
 
-    public static decimal ConvertUnit(this decimal value, decimal? mol, string? formula)
+    public static decimal ConvertUnit(this decimal value, string? formula, decimal? mol = null)
     {
         if (string.IsNullOrEmpty(formula)) throw new FormulaNullException();
         if (formula.Equals("$self")) return value;

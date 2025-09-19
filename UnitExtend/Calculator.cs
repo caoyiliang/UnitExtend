@@ -13,15 +13,7 @@ internal class Calculator
 
     public decimal Compute(string formula)
     {
-        try
-        {
-            IDynamicExpression eDynamic = _expressionContext.CompileDynamic(formula);
-            return Convert.ToDecimal(eDynamic.Evaluate());
-
-        }
-        catch (Exception)
-        {
-            throw;
-        }
+        IDynamicExpression eDynamic = _expressionContext.CompileDynamic(formula);
+        return Convert.ToDecimal(eDynamic.Evaluate());
     }
 }

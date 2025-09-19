@@ -3,6 +3,6 @@ using UnitExtend;
 Console.WriteLine("Hello, World!");
 
 decimal cm = 1.0m;
-var m = cm.ConvertUnit(null, "$self/100");
+var m = cm.ConvertUnit("$self/100");
 
 Console.ReadLine();
