@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>CSoft.$(AssemblyName)</PackageId>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Company>CSoft</Company>
     <Authors>CSoft</Authors>
     <Description>单位转换拓展</Description>
