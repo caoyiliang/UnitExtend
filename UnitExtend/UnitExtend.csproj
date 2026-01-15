@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>CSoft.$(AssemblyName)</PackageId>
-		<Version>10.0.1</Version>
+		<Version>10.0.2</Version>
 		<Company>CSoft</Company>
 		<Authors>CSoft</Authors>
 		<Description>单位转换拓展</Description>

@@ -29,7 +29,7 @@ public static class UnitExtend
         if (formula.Equals("self")) return value;
         if (formula.Contains("mol"))
         {
-            if (mol != null)
+            if (mol != null && mol != 0)
             {
                 formula = formula.Replace("mol", mol.ToString());
             }
